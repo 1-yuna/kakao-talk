@@ -1,0 +1,179 @@
+.etc-top-bar {
+  padding: 90px 15px 20px 15px;
+  background-color: var(--yellow);
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.etc-top-bar-barcode-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.etc-top-bar-barcode-wallet {
+  padding-left: 10px;
+}
+
+.etc-top-bar-barcode {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+
+.etc-top-bar-barcode-bat-icon {
+  padding: 0 10px;
+  opacity: 0.2;
+}
+
+.etc-top-bar-barcode span {
+  padding-left: 5px;
+}
+
+.etc-top-bar-barcode-wallet-right-icon {
+  opacity: 0.4;
+}
+
+.etc-top-bar-barcode-wallet-text {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.etc-top-bar-guide-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  background-color: rgb(255, 249, 238);
+  border-radius: 5px;
+  height: 40px;
+}
+
+.etc-top-bar-guide {
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.etc-top-bar-guide-icon {
+  padding-right: 10px;
+  color: blue;
+}
+
+.etc-top-bar-pay-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.etc-top-bar-pay {
+  display: flex;
+  align-items: center;
+}
+
+.etc-top-bar-pay-icon {
+  padding: 0 5px 0 0;
+}
+
+.etc-top-bar-pay span {
+  position: relative;
+  top: -2px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.etc-top-bar-pay-money {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.etc-top-bar-money-box {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  padding: 0 10px;
+}
+
+.etc-top-bar-money-box-buy {
+  display: flex;
+}
+.etc-top-bar-money-box-buy-icon {
+  padding-right: 5px;
+}
+
+.etc-body {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+  box-sizing: border-box;
+}
+
+.etc-block-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px 0;
+  color: rgb(77, 77, 77);
+}
+
+.etc-block {
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+  align-items: center;
+}
+
+.etc-block-text {
+  font-size: 10px;
+  padding-top: 13px;
+}
+
+.etc-page-adver-img {
+  width: 100%;
+}
+
+.etc-weather-body-box {
+  border-top: 1px solid var(--gray_gray);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.etc-weather-box {
+  display: flex;
+  align-items: center;
+}
+
+.etc-weather-today {
+  padding: 10px;
+}
+
+.etc-weather-today-text {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.etc-weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+
+.etc-weather-title {
+  font-size: 10px;
+}
+
+.etc-weather-text {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.etc-weather-text-box {
+  padding-top: 5px;
+}

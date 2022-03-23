@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@400;600;800&display=swap");
+
+/*common*/
+@import url("common/status.css");
+@import url("common/reset.css");
+@import url("common/top-bar.css");
+@import url("common/profile.css");
+@import url("common/bottom-bar.css");
+@import url("common/main.css");
+@import url("common/profile-menu.css");
+@import url("common/no-mobile.css");
+
+/*screen*/
+@import url("screen/login.css");
+@import url("screen/friend.css");
+@import url("screen/etc.css");
+@import url("screen/chat.css");
+@import url("screen/search.css");
+@import url("screen/shopping.css");
+@import url("screen/animation.css");
+
+/*top-bar*/
+@import url("top-bar/top-bar-friends.css");
+@import url("top-bar/top-bar-people.css");
+@import url("top-bar/top-bar-pre.css");
+@import url("top-bar/top-bar-music.css");
+@import url("top-bar/top-bar-qr.css");
+
+:root {
+  --yellow: #f9e001;
+  --black: rgba(80, 72, 50, 0.8);
+  --gray: rgba(80, 72, 50, 0.4);
+  --gray-border: rgba(160, 156, 148, 0.2);
+  --white_gray: rgb(216, 216, 216);
+  --white_gray2: rgb(247, 247, 247);
+  --gray_gray: rgb(236, 236, 236);
+  --brown: #391d1d;
+  --green: #05df30;
+  --pink: rgb(255, 116, 101);
+  --red: rgb(231, 62, 20);
+  --chat: #b3c8db;
+  --blue: rgb(0, 89, 255);
+  --music_background: #1a1a1a;
+  --music_gray: #757575;
+}
+
+body {
+  font-family: "Prompt", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+}

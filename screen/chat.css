@@ -1,0 +1,383 @@
+.chat-body {
+  background-color: var(--chat);
+}
+
+.chat-top-bar {
+  display: flex;
+  align-items: center;
+}
+
+.chat-top-bar-name {
+  padding-left: 15px;
+}
+
+.chat-top-bar-color {
+  background-color: var(--chat);
+}
+
+.chat-top-bar-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.chat-top-bar-arrow:hover {
+  background-color: #9db0c0;
+  opacity: 0.8;
+}
+
+.chat-bar {
+  height: 10px;
+}
+
+.chat-day-box {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.chat-day {
+  background-color: var(--gray);
+  opacity: 0.5;
+  padding: 9px;
+  border-radius: 15px;
+}
+
+.chat-day p {
+  font-size: 10px;
+  color: white;
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  padding: 70px 0;
+}
+
+.chat-profile {
+  display: flex;
+  padding: 3px;
+}
+
+.profile-right {
+  justify-content: flex-end;
+}
+
+.chat-main {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.chat-box {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+}
+
+.chat-box-second {
+  position: relative;
+  right: -62px;
+}
+
+.chat-name {
+  position: relative;
+  top: -4px;
+}
+
+.chat-name h3 {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.chat-text-time {
+  display: flex;
+  position: relative;
+  bottom: -4px;
+}
+
+.chat-text-time-left {
+  padding-right: 50px;
+}
+
+.chat-text-time-right {
+  padding-left: 50px;
+}
+
+.chat-text {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding: 12px;
+  border-radius: 15px;
+}
+
+.chat-text-left {
+  border-top-left-radius: 0px;
+}
+
+.chat-text-right {
+  border-top-right-radius: 0px;
+  background-color: var(--yellow);
+}
+
+.chat-text-right-birthday {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+  align-items: center;
+  position: relative;
+  border-radius: 15px;
+  width: 220px;
+  height: 350px;
+  background-color: var(--gray_gray);
+}
+
+.chat-text-right-birthday-card {
+  width: 200px;
+  height: 190px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.chat-text-right-birthday-card-img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.chat-text-right-birthday-card-box {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.chat-text-right-birthday-card-toy {
+  width: 35px;
+  height: 35px;
+  padding: 8px;
+}
+
+.chat-text-right-birthday-card-name h3 {
+  font-size: 10px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.chat-text-right-birthday-card-name p {
+  font-size: 13px;
+  font-weight: 600;
+  padding-top: 5px;
+}
+
+.chat-text-right-birthday-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 220px;
+  height: 150px;
+  background-color: white;
+  position: absolute;
+  bottom: 0px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.chat-text-right-birthday-text-name {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.chat-text-right-birthday-text-name p,
+.chat-text-right-birthday-text-name h3 {
+  font-size: 12px;
+}
+
+.chat-text-right-birthday-text-name p {
+  position: relative;
+  bottom: -2px;
+}
+
+.chat-text-right-birthday-text-name-hart {
+  display: flex;
+  align-items: center;
+}
+
+.chat-text-right-birthday-text-btn {
+  width: 200px;
+  height: 30px;
+  background-color: var(--gray_gray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.chat-text-right-birthday-text-btn span {
+  font-size: 12px;
+}
+
+.chat-text-right-birthday-text-gift-box {
+  width: 200px;
+  height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chat-text-right-birthday-text-gift {
+  display: flex;
+  align-items: center;
+}
+
+.chat-text-right-birthday-text-gift p {
+  font-size: 8px;
+  opacity: 0.5;
+}
+
+.fa-angle-right {
+  opacity: 0.2;
+}
+
+.chat-text-right-birthday-hart {
+  color: var(--pink);
+  padding-right: 5px;
+}
+.chat-text p,
+a {
+  font-size: 12px;
+}
+
+.chat-time-left {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.chat-time-right {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.chat-time p {
+  font-size: 6px;
+}
+
+.chat-text-emo {
+  background-color: var(--chat);
+}
+
+.chat-text-emo img {
+  width: 150px;
+}
+
+.chat-link {
+  color: blue;
+  border-bottom: 1px solid blue;
+}
+
+.chat-link-box {
+  width: 300px;
+  height: 210px;
+  position: relative;
+}
+
+.chat-link-box-img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.chat-link-box-text {
+  width: 300px;
+  height: 70px;
+  background-color: white;
+  position: relative;
+  bottom: 0px;
+  position: absolute;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.chat-link-box-text-name {
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  top: 0px;
+  font-size: 10px;
+  padding: 10px;
+}
+
+.chat-link-box-text-name h3 {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.chat-link-box-text-name p {
+  opacity: 0.7;
+}
+
+.chat-link-box-text-name-link {
+  position: absolute;
+  font-size: 3px;
+  bottom: 0px;
+  padding: 10px;
+}
+
+.chat-link-box-text-name-link p {
+  opacity: 0.7;
+}
+
+.chat-bottom-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  border-top: 1px solid var(--white_gray);
+}
+
+.chat-bottom-bar i {
+  opacity: 0.5;
+}
+
+.chat-bottom-bar-chatting {
+  width: 330px;
+  height: 35px;
+  border: none;
+}
+
+.chat-bottom-bar-chatting:focus {
+  outline: none;
+}
+
+.chat-bottom-bar-chatting:focus {
+  border: none;
+}
+
+.chat-text-img-hoon {
+  border-radius: 15px;
+}

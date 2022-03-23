@@ -1,0 +1,19 @@
+/*search*/
+
+@keyframes heart {
+  0% {
+    color: black;
+  }
+
+  50% {
+    transform: scale(1.5);
+    color: tomato;
+  }
+  100% {
+    color: black;
+  }
+}
+
+.view-page-bottom-bar-icon-heart:hover i {
+  animation: heart 2s ease-in-out infinite;
+}

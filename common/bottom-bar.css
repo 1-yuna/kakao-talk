@@ -1,0 +1,47 @@
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--white_gray2);
+  border-top: 1px solid var(--white_gray);
+}
+
+.bottom-bar-icon {
+  color: inherit;
+  position: relative;
+}
+
+.fa-color_opacity {
+  opacity: 0.3;
+}
+
+.bottom-bar-icon:hover {
+  opacity: 0.5;
+}
+
+.bottom-bar-icon i:visited {
+  color: black;
+}
+
+.bottom-bar-num {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 18px;
+  width: 18px;
+  background-color: var(--red);
+  border-radius: 50%;
+  position: relative;
+  top: -6px;
+  right: -8px;
+  position: absolute;
+}
+
+.bottom-bar-num span {
+  font-size: 10px;
+  color: rgb(255, 255, 255);
+}

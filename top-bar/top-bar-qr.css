@@ -1,0 +1,55 @@
+.top-bar-qr-camera-box {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 85px;
+  background-color: black;
+  color: var(--yellow);
+}
+
+.top-bar-qr-camera-icon-plus {
+  position: relative;
+  left: -34px;
+}
+
+.top-bar-qr-bottom-box {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  padding: 30px 40px;
+}
+
+.top-bar-qr-text {
+  text-align: center;
+}
+
+.top-bar-qr-opa {
+  opacity: 0.6;
+}
+
+.top-bar-qr-bottom-icon-box {
+  display: flex;
+  padding-top: 30px;
+  justify-content: space-around;
+}
+
+.top-bar-qr-bottom-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-bar-qr-bottom-icon span {
+  padding-top: 10px;
+}
+
+.top-bar-qr-click {
+  border-radius: 50%;
+  padding: 10px 12px;
+}
+
+.top-bar-qr-click-color {
+  background-color: rgb(39, 39, 39, 0.1);
+}

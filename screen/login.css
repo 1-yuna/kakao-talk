@@ -1,0 +1,89 @@
+.login-background {
+  background-color: var(--yellow);
+}
+
+.input-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.btn-text-login:hover,
+.btn-text-login::placeholder {
+  background-color: var(--brown);
+  color: white;
+}
+
+.btn-text-login:focus,
+.btn-text-login::placeholder {
+  background-color: var(--brown);
+  color: white;
+  opacity: 0.8;
+}
+
+.btn-text {
+  width: 300px;
+  height: 40px;
+  border: 1px solid rgb(236, 228, 211);
+  border-radius: 2px;
+  padding-left: 7px;
+}
+
+.btn-text:focus {
+  outline: none;
+}
+.btn-text-login {
+  width: 306px;
+  height: 41px;
+  margin: 5px 0;
+  color: var(--gray);
+}
+
+.input-check {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: -95px;
+}
+
+.input-check-box {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+.input-check span {
+  font-size: 13px;
+  margin: 2px 3px 0 5px;
+  color: var(--black);
+}
+
+.input-check i {
+  opacity: 0.2;
+}
+
+.input-search {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.input-search span {
+  width: 110px;
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+  color: var(--black);
+}
+
+.input-search span:first-child {
+  border-right: 1px solid rgba(49, 44, 12, 0.1);
+}

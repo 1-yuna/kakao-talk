@@ -1,0 +1,8 @@
+.top-bar-people-bar {
+  display: flex;
+  align-items: center;
+}
+
+.top-bar-people-title {
+  padding-left: 10px;
+}

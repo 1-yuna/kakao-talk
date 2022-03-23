@@ -1,0 +1,45 @@
+.no-mobile {
+  position: absolute;
+  z-index: 100;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--yellow);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.no-mobile-img {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  padding-bottom: 40px;
+}
+
+@media screen and (max-width: 550px) {
+  .no-mobile {
+    display: none;
+  }
+}
+
+@keyframes chan {
+  0% {
+    transform: translatey(0px);
+  }
+
+  50% {
+    transform: translatey(-10px);
+  }
+
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+.no-mobile-img {
+  animation: chan 2s linear infinite;
+}

@@ -1,0 +1,125 @@
+.top-bar-friends-search-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  background-color: var(--white_gray);
+  border-radius: 5px;
+}
+
+.top-bar-page {
+  padding: 20px;
+}
+
+.top-bar-friends-gray {
+  width: 100%;
+  background-color: (--gray_gray);
+  height: 20px;
+}
+
+.top-bar-friends-search {
+  width: 100%;
+  border: none;
+  background-color: var(--white_gray);
+}
+
+.top-bar-friends-search-icon {
+  padding: 0 20px;
+}
+
+.top-bar-friends-title-box {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  padding: 5px 0;
+}
+
+.top-bar-friends-title-left {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.top-bar-friends-title-text-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0 10px 0;
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.top-bar-friends-text-box {
+  display: flex;
+  padding-top: 10px;
+  font-size: 12px;
+}
+
+.top-bar-friends-text {
+  background-color: var(--gray_gray);
+  padding: 8px 10px;
+  border-radius: 15px;
+  margin-right: 8px;
+}
+
+.top-bar-friends-emoticon-box {
+  display: flex;
+  width: 100%;
+  padding: 10px 0;
+  white-space: nowrap;
+  overflow: auto;
+}
+
+/*.top-bar-friends-emoticon-box::-webkit-scrollbar {
+  display: none;
+}
+*/
+.top-bar-friends-emoticon-one-img-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.top-bar-friends-emoticon-img-box {
+  background-color: var(--gray_gray);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.top-bar-friends-emoticon-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.top-bar-friends-emoticon-text {
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+.top-bar-friends-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.top-bar-friends-arrow:hover {
+  background-color: #b9b9b9;
+}
+
+.top-bar-music-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.top-bar-music-arrow:hover {
+  background-color: #5c5c5c;
+}
